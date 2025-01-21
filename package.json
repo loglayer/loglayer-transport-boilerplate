@@ -34,17 +34,17 @@
     "livetest": "tsx src/__tests__/livetest.ts"
   },
   "dependencies": {
-    "@loglayer/transport": "^1.2.1"
+    "@loglayer/transport": "^1.2.2"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@types/node": "22.10.4",
-    "loglayer": "^5.1.4",
+    "loglayer": "^5.4.0",
     "lefthook": "1.10.1",
     "tsup": "8.3.5",
     "tsx": "4.19.2",
     "typescript": "5.7.2",
-    "vitest": "2.1.8"
+    "vitest": "3.0.2"
   },
   "bugs": "https://github.com/loglayer/loglayer-transport-boilerplate/issues",
   "engines": {
