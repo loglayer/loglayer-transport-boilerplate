@@ -31,20 +31,24 @@
     "clean": "rm -rf .turbo node_modules dist",
     "lint": "biome check --write --unsafe src && biome format src --write && biome lint src --fix",
     "verify-types": "tsc --noEmit",
-    "livetest": "tsx src/__tests__/livetest.ts"
+    "livetest": "tsx src/__tests__/livetest.ts",
+    "syncpack:update": "syncpack update && syncpack fix-mismatches && npm i",
+    "syncpack:format": "syncpack format",
+    "syncpack:lint": "syncpack lint"
   },
   "dependencies": {
-    "@loglayer/transport": "^1.2.2"
+    "@loglayer/transport": "^2.1.1"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
-    "@types/node": "22.10.4",
-    "loglayer": "^5.4.0",
-    "lefthook": "1.10.1",
-    "tsup": "8.3.5",
-    "tsx": "4.19.2",
-    "typescript": "5.7.2",
-    "vitest": "3.0.2"
+    "@types/node": "22.13.10",
+    "loglayer": "^6.3.2",
+    "lefthook": "1.11.3",
+    "syncpack": "13.0.3",
+    "tsup": "8.4.0",
+    "tsx": "4.19.3",
+    "typescript": "5.8.2",
+    "vitest": "3.0.8"
   },
   "bugs": "https://github.com/loglayer/loglayer-transport-boilerplate/issues",
   "engines": {
