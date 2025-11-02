@@ -18,10 +18,6 @@ export interface LogBasedTransportConfig extends LogLayerTransportConfig<Console
  * BaseTransport provides the logger property, which is the instance of the library.
  */
 export class LogBasedTransport extends BaseTransport<ConsoleType> {
-  constructor(config: LogBasedTransportConfig) {
-    super(config);
-  }
-
   shipToLogger({ logLevel, messages, data, hasData }: LogLayerTransportParams) {
     if (data && hasData) {
       // Put the data at the end of the message array

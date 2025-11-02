@@ -1,6 +1,6 @@
 import { LogLayer } from "loglayer";
 import { beforeEach, describe, expect, it, vitest } from "vitest";
-import { NotLogBasedTransport, mockService } from "../NotLogBasedTransport.js";
+import { mockService, NotLogBasedTransport } from "../NotLogBasedTransport.js";
 
 describe("NotLogBasedTransport", () => {
   beforeEach(() => {

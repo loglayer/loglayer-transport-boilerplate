@@ -1,4 +1,4 @@
-import { type LogLayerTransportParams, LoggerlessTransport, type LoggerlessTransportConfig } from "@loglayer/transport";
+import { LoggerlessTransport, type LoggerlessTransportConfig, type LogLayerTransportParams } from "@loglayer/transport";
 
 export const mockService = {
   send: (payload: any) => {
