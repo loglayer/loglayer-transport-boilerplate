@@ -37,13 +37,13 @@
     "verify-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@loglayer/transport": "2.2.0"
+    "@loglayer/transport": "2.3.10"
   },
   "devDependencies": {
     "@biomejs/biome": "2.3.2",
     "@types/node": "24.9.2",
     "lefthook": "2.0.2",
-    "loglayer": "7.0.0",
+    "loglayer": "8.1.0",
     "syncpack": "13.0.4",
     "tsdown": "0.15.12",
     "tsx": "4.20.6",
