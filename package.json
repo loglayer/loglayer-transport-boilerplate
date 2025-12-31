@@ -37,18 +37,18 @@
     "verify-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@loglayer/transport": "2.3.10"
+    "@loglayer/transport": "2.3.13"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.3.2",
-    "@types/node": "24.9.2",
-    "lefthook": "2.0.2",
-    "loglayer": "8.1.0",
+    "@biomejs/biome": "2.3.10",
+    "@types/node": "24.10.4",
+    "lefthook": "2.0.13",
+    "loglayer": "8.4.0",
     "syncpack": "13.0.4",
-    "tsdown": "0.15.12",
-    "tsx": "4.20.6",
+    "tsdown": "0.18.4",
+    "tsx": "4.21.0",
     "typescript": "5.9.3",
-    "vitest": "4.0.6"
+    "vitest": "4.0.16"
   },
   "bugs": "https://github.com/loglayer/loglayer-transport-boilerplate/issues",
   "engines": {
